@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1c1c1c;
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Poster box */
+.poster {
+    width: 320px;
+    background: #f4ecd8; /* paper-like */
+    color: #2a2a2a;
+    text-align: center;
+    padding: 25px;
+    border: 5px solid #b89b3c; /* gold border */
+    border-radius: 10px;
+}
+
+/* Title */
+.title {
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #6b4f1d;
+    margin-bottom: 15px;
+}
+
+/* Image */
+.image {
+    width: 70%;
+    max-width: 200px;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    border: 3px solid #b89b3c;
+}
+
+/* Quote */
+.quote {
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* Composer */
+.composer {
+    font-weight: bold;
+    margin-top: 5px;
+    color: #6b4f1d;
+}
+
+/* Author */
+.author {
+    margin-top: 15px;
+    font-size: 12px;
+    opacity: 0.7;
+}
